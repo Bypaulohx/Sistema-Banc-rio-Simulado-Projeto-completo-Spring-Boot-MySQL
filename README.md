@@ -153,6 +153,3 @@ Coloque prints/screenshots em `docs/prints/` e referencie no README com:
 - Dockerizar a aplicação (imagem + compose com DB)
 
 ---
-
-## Autor
-Paulo Henrique dos Santos Brito

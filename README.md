@@ -115,16 +115,8 @@ Client -> Controller -> Service (@Transactional, lock PESSIMISTIC_WRITE) -> Repo
 bank-system/
 ├── Dockerfile
 ├── docker-compose.yml
-├── pom.xml
-├── src/
-└── docs/
-    └── prints/
+└── pom.xml
 ```
-Coloque prints/screenshots em `docs/prints/` e referencie no README com:
-```md
-![Print - cadastro de conta](docs/prints/print01.png)
-```
-
 ---
 
 ## Observações importantes

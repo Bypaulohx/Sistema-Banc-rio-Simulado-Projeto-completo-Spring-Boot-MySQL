@@ -127,18 +127,6 @@ Coloque prints/screenshots em `docs/prints/` e referencie no README com:
 
 ---
 
-## Prints / como gerar e incluir
-1. Abra o app rodando e use o Postman ou navegador para acessar endpoints/Swagger.
-2. Faça capturas de tela (Windows: `Win+Shift+S`, macOS: `Cmd+Shift+4`).
-3. Salve em `docs/prints/print01.png` e adicione ao repositório:
-   ```bash
-   git add docs/prints/print01.png
-   git commit -m "Add print cadastro de conta"
-   git push
-   ```
-
----
-
 ## Observações importantes
 - **Segurança**: não há autenticação; não usar em produção sem proteger endpoints.
 - **Concorrência**: operações financeiras usam lock pessimista para reduzir condições de corrida; para alto volume considere estratégias especiais.

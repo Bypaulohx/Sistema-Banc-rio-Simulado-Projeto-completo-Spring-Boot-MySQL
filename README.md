@@ -145,11 +145,3 @@ Coloque prints/screenshots em `docs/prints/` e referencie no README com:
 - **Validação**: o exemplo é didático — adicione validação (Bean Validation) conforme necessário.
 
 ---
-
-## Próximos passos sugeridos
-- Adicionar testes unitários e integração (Spring Boot Test)
-- Adicionar autenticação (JWT)
-- Criar frontend (React) para interação
-- Dockerizar a aplicação (imagem + compose com DB)
-
----
